@@ -1,0 +1,78 @@
+doctype html
+html
+  head
+    link(href='style.css', rel='stylesheet')
+    script(src='jquery-1.11.3.js')
+    script(src='display.js')
+  body#body(onmousedown='whichElement(event)', onload='frontSlide()')
+    .main_back
+      #frontMenu.cent.transp
+        #fmenu
+          img.banner(src='img/banner.jpg')
+          #form.cent
+            br
+            br
+            h3#info.border.btn_start.textcent(onclick='newgame(), slide()') - New Game -
+            table.tableMenu
+              tr
+                td
+                  span You Are:
+                td
+                  input#player.textcent.cent(type='text', name='firstname', value='GUEST')
+              tr
+                td
+                  span Expanations:
+                td
+                  input#notify(type='checkbox', value='true', checked='')
+      br
+      #main.cent
+        h5#status1.textcent Status Goes Here
+        h5#status.textcent Status Goes Here
+        .cent.board.transp
+          .player_inf.transp.move_main
+            h4.textcent COMPUTER
+            img.icon(src='img/avatarComp.jpg')
+            h4.textcent
+              | Wins:
+              span#computerWon 0
+          #div1
+        #div2.cent.transp
+          #div4
+          h6#message_stats.textcent Status Goes Here
+          #div5
+            h4.cards_left
+              | Cards Left:
+              span#cardsLeft -
+            |         Wild:
+        .cent.board.transp
+          #mainMenu.menu
+          .player_inf.transp.move_main
+            h4#playerN.textcent ---
+            img.icon(src='img/avatarPlayer.jpg')
+            h4.textcent
+              | Wins:
+              span#playerWon 0
+          #div3
+      #endMenu.cent.transp
+        #prompt.cent
+          h1.uphead Score:
+          .player_inf.transp.end_computer
+            h4.textcent COMPUTER
+            img.icon(src='img/avatarComp.jpg')
+            h4.textcent
+              | Wins:
+              span#end_computerWon
+          .player_inf.transp.end_player
+            h4#playerNn.textcent ---
+            img.icon(src='img/avatarPlayer.jpg')
+            h4.textcent
+              | Wins:
+              span#end_playerWon
+          h1.between VS
+          h2#end_info.textcent.down Congratulations, You Won!
+          .border.end_button(onclick='exitToMenu()')
+            h3.end_button_h  - Exit to Menu - 
+          .border.end_button.end_button_right(onclick='restart()')
+            h3.end_button_h
+              | - Next Round -
+      footer.textcent(style='color:white') Created By Deniss Strods 2015 C. e-mail: denmantm@inbox.lv
