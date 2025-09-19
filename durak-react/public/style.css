@@ -1,0 +1,238 @@
+/* Styles go here */
+/* Styles go here */
+.beat{
+  position: relative;
+  left: 31px;
+  top: -137px;
+}
+.board{
+  height:195px;
+  width:700px;
+  background-color:green;
+  color:white;
+}
+/* AllGame Area Includin wild card area */
+#div2{
+  height:230px;
+  width:950px;
+  background-color:green;
+  color:white;
+  border:1px solid white;
+}
+/* Just game table where cards will go inside */
+#div4{
+    height:180px;
+  width:750px;
+  margin-top:25px;
+   margin-left:5px;
+    border:1px solid black;
+    float:left;
+}
+/* container for wild card */
+#div5{
+    height:180px;
+  width:120px;
+  margin-top:25px;
+  margin-right:5px;
+    border:1px solid black;
+    float:right;
+}
+.cent{
+  margin-left:auto;
+  margin-right:auto;
+}
+.textcent{
+  text-align:center;
+}
+
+.border{
+  border:1px solid black;
+  border-radius:10px;
+}
+.btn{
+  margin:0;
+  margin-top:10px;
+  height:25px;
+  padding:0;
+  float:left;
+  margin-right:5px;
+  background-color:gray;
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+background-color:red;
+}
+.btn_start{
+  margin-top:0px;
+margin-left:auto;
+margin-right:auto;
+height: 45px;
+width: 334px;
+font-size: 37px;
+border-radius: 11px;
+background-color:gray;
+
+-webkit-box-shadow: 9px 6px 17px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 6px 17px 5px rgba(0,0,0,0.75);
+box-shadow: 9px 6px 17px 5px rgba(0,0,0,0.75);
+}
+.btn_start:hover{
+-webkit-box-shadow: 9px 6px 17px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 6px 17px 11px rgba(0,0,0,0.75);
+box-shadow: 9px 6px 17px 11px rgba(0,0,0,0.75);
+background-color:red;
+}
+
+.btn:hover{
+  color:white;
+  
+}
+
+.menu{
+height: 110px;
+width: 130px;
+  position:absolute;
+  margin-left: -120px;
+  color:black;
+}
+.card:hover{
+  box-shadow: 0 0 10px #000000;
+}
+h5{
+  margin:0;
+  color:white;
+}
+h4{
+    margin:0;
+  color:white;
+}
+.row2{
+  margin-top: -85px;
+}
+#main{
+  display:none;
+  margin-left:auto;
+  margin-right:auto;
+}
+.transp{
+  opacity: 0.7;
+}
+.main_back{
+  background-image: url("img/back.jpg");
+  width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#frontMenu{
+    width:700px;
+    height:400px;
+    background-color:green;
+    display:none;
+
+}
+#form{
+  margin-left:auto;
+  margin-right:auto;
+    width:300px;
+    height:200px;
+}
+.tableMenu{
+    margin-left:auto;
+  margin-right:auto;
+}
+.banner{
+  width:700px;
+  height:150px;
+}
+.player_inf{
+  width:100px;
+  height:120px;
+  background-color:red;
+  position:absolute;
+
+}
+.move_main{
+    margin-left: 710px;
+  margin-top: 35px;
+}
+.icon{
+  height:70px;
+  width:70px;
+  margin-left:15px;
+  margin-top:7px;
+}
+.cards_left{
+  position:absolute;
+  margin-top:-20px;
+}
+#message_stats{
+  position:absolute;
+width:940px;
+margin-top: 181px;
+  color:#D3D3D3;
+  font-size: 19px;
+  display:none;
+}
+#status1, #status{
+  display:none;
+}
+#endMenu{
+    width:700px;
+    height:400px;
+    background-color:green;
+    display:none;
+}
+#prompt{
+  position:absolute;
+  margin-top:100px;
+  margin-left:200px;
+      width:300px;
+      height:200px;
+
+}
+.between{
+  margin-left:130px;
+  margin-top:50px;
+  color:black;
+}
+.uphead{
+  margin-left:110px;
+  margin-top:0px;
+  margin-bottom:10px;
+  color:black;
+}
+.end_button_h{
+margin-top:3px;
+margin-bottom:3px;
+}
+.end_player{
+  margin-left:180px;
+}
+.end_computer{
+  margin-left:20px;
+}
+.down{
+  margin-top:50px;
+  color:blue;
+}
+.end_button{
+float:left;
+border-radius: 11px;
+background-color:gray;
+
+-webkit-box-shadow: 9px 6px 17px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 6px 17px 5px rgba(0,0,0,0.75);
+box-shadow: 9px 6px 17px 5px rgba(0,0,0,0.75);
+}
+.end_button_right{
+  float:right;
+
+}
+
+
+.end_button:hover{
+-webkit-box-shadow: 9px 6px 17px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 6px 17px 11px rgba(0,0,0,0.75);
+box-shadow: 9px 6px 17px 11px rgba(0,0,0,0.75);
+background-color:red;
+}
