@@ -1,0 +1,61 @@
+.card {
+  border-radius: 9px;
+  margin-left: 8px;
+  background-color: white;
+  border: 2px solid black;
+  float: left;
+  height: 135px;
+  width: 85px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.card--clickable:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card--selected {
+  transform: translateY(-10px);
+  border-color: #007bff;
+  box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3);
+}
+
+.card__selection-indicator {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  background-color: #007bff;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.card--on-table {
+  margin: 5px;
+  float: none;
+  display: inline-block;
+}
+
+.card--trump {
+  border-color: #ffd700;
+  background-color: #fffacd;
+}
+
+@media (max-width: 768px) {
+  .card {
+    height: 100px;
+    width: 63px;
+    margin-left: 4px;
+  }
+}
